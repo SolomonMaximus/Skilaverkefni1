@@ -22,16 +22,15 @@
   font-weight: 400;
   font-style: normal;
   background-color: antiquewhite;
-
 }
 
-.myndir img{
-    width: 150px;
-    height: 150px;
-}
 
 .myndir {
     display: flex;
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+    border: solid black;    
 }
 
 .Ummig  {
@@ -48,4 +47,21 @@
 .body{
     background-color: antiquewhite;
 
+}
+
+.info{
+    font-family: "Alan Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(247, 210, 165);
+}
+
+.calendar{
+    display: flex;
+    align-items: center;
+}
+
+.footertexti {
+    text-align: center;
 }
