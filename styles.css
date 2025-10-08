@@ -6,12 +6,16 @@
     display: flex;
     align-items: center;
     gap: 50px;
-    justify-content: flex-end;
+    justify-content: space-around;
     border: 2px solid black;
     border-radius: 20px;
-    margin-left: 1340px;
+    margin-left: 1360px;
     padding-right: 10px;
     background-color: rgb(213, 161, 92);
+}
+
+nav a{
+    margin: 0 10px;
 }
 
 .header-left{
